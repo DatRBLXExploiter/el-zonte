@@ -1,0 +1,258 @@
+/*  
+
+Please stand for our national anthem:
+
+[Music starts]
+
+O say can you see,
+By the gyatt of skibidi,
+what the dog doin? (shh...)
+Don't break his mewing streak!
+We shall stand, ipads in hand
+and edge for eternity!
+For the rizzler is among us!
+Your mom has small pp!
+United States?
+United based
+From tilted towers to loot lake
+Cocomelon, grimace shake
+MrBeast made a mistake!
+Will we get an apology?
+Before the 6th GTA
+Or will he follow
+In the footsteps of Drake?
+Erm, what the sigma?
+Did TikTok get banned?
+Joe Biden was that you?
+Is this what you planned?
+Hawk tuah!
+Hawk tuah!
+My aura is maxxed!
+Don't mess with Ohio
+Or we'll raise the fanum tax!
+erm- what the sigma?
+Blud thinks I should get a job?
+You're a beta I'm an alpha!
+Go outside and touch some grass
+My friend Sniper Wolf has found your address!
+Yap one more time and she'll kick your behind!
+Ice Spice, Kai Cenat,
+Duke Dennis, Baby Gronk!
+Livvy Dunne, Ishowspeed,
+Ryan Garcia, Logan Paul
+Stick out your gyatt
+For the soldiers
+Who died in the fight
+To defend our nation
+From banning Fornite!
+Except Logan Paul
+Bro thinks he's Walter White!
+O the land of skibidi!
+And the home of the Ohio rizzler!
+
+*/
+
+#section1 {
+    /* green:      #71cc55 
+     * dirty cyan: #55c4cc
+     * light cyan: #5ee9f3
+     */
+    background-image: url(img/elzonte.jpg);
+    padding-top: 100px;
+    padding-bottom: 330px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#section1 h1 {
+    color: #ffffff;
+    text-align: center;
+    font-family: California, serif;
+    font-size: 100px;
+}
+
+.motto {
+    text-align: center;
+    font-family: California, serif;
+    font-size: 40px;
+    color: #ffffff;
+    text-decoration: underline wavy;
+  }
+  .breaking {
+    padding-top: 0px;
+    padding-bottom: 30px;
+    background-color: rgb(255, 255, 255);
+    /*    red:    rgb(177, 47, 47)
+     *
+     */
+    text-align: center;
+    font-family: 'Helvetica', sans-serif;
+    font-size: 60px;
+    color: rgb(179 38 30 / 1)
+  }
+  
+  #h {
+    /* rgb(139, 235, 144) */
+    text-align: center;
+    font-family: Nunito;
+    font-size: 100px;
+    color: #71cc55
+  }
+  
+  ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: hsla(0, 0%, 17%, 0.377);
+      position: fixed;
+      top: 0;
+      width: 100%;
+    }
+    
+    li {
+      float: left;
+      font-family: Nunito;
+    }
+    
+    li a {
+      font-family: Nunito;
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    
+    /* Change the link color to #111 (black) on hover */
+    li a:hover {
+      font-family: Nunito;
+      color: #111;
+      background-color: #FFF;
+      transition: 0.3s;
+    }
+
+    .space {
+        padding-bottom: 20px;
+      }
+    
+    footer {
+      font-family: Arial, Helvetica, sans-serif;
+      color: #111;
+      font-size: 15px;
+      text-align: center;
+      padding-top: 10px;
+      padding-bottom: 30px;
+    }
+    
+  @font-face {
+    font-family: "Newsreader";
+    src: url(fonts/Newsreader-VariableFont_opsz\,wght.ttf);
+  }
+  
+  @font-face {
+    font-family: "California";
+    src: url(fonts/California_Script.ttf);
+  }
+  
+  @font-face {
+    font-family: "Nunito";
+    src: url(fonts/Nunito-VariableFont_wght.ttf);
+  }
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Nunito;
+}
+
+.contact-container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.contact-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding-left: 20px;
+}
+
+.contact-left-title h2 {
+    font-weight: 600;
+    color: #71cc55;
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+
+.contact-left-title hr {
+    border: none;
+    width: 120px;
+    height: 5px;
+    background-color: #71cc55;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.contact-inputs {
+    width: 400px;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding-left: 25px;
+    font-weight: 500;
+    color: #666;
+    border-radius: 50px;
+}
+
+.contact-left textarea {
+    height: 140px;
+    padding-top: 15px;
+    border-radius: 20px;
+}
+
+.contact-inputs:focus {
+    border: 2px solid #71cc55;
+}
+
+.contact-inputs::placeholder {
+    color: #696969;
+    font-family: Nunito, serif;;
+}
+
+.contact-left button {
+    display: flex;
+    align-items: center;
+    padding: 15px 30px;
+    font-size: 16px;
+    color: #000;
+    gap: 10px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.contact-left button img {
+    height: 15px;
+}
+
+.contact-right {
+    width: 500px;
+}
+
+@media (max-width:800px) {
+    .contact-inputs {
+        width: 80vw;
+    }
+
+    .contact-right {
+        display: none;
+    }
+}
